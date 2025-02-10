@@ -84,10 +84,10 @@
 
         system {
             bindings = <
-&trans        &kp F1   &kp F2   &kp F3      &kp F4      &kp F5            &msc SCRL_UP    &mkp MB1         &mkp MB2      &mkp MB3         &kp F13  &kp F14
-&kp LCTRL     &kp F6   &kp F7   &kp F8      &kp F9      &kp F10           &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp F15  &kp F16
-&kp LEFT_ALT  &kp F11  &kp F12  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR        &msc SCRL_DOWN  &kp PRINTSCREEN  &kp CAPSLOCK  &kp INS          &kp F17  &kp F18
-                                &kp LGUI    &trans      &kp LEFT_SHIFT    &kp SPACE       &trans           &kp LGUI
+&bt BT_CLR    &kp F1   &kp F2   &kp F3        &kp F4        &kp F5            &msc SCRL_UP    &mkp MB1         &mkp MB2      &mkp MB3         &kp F13  &kp F14
+&kp LCTRL     &kp F6   &kp F7   &kp F8        &kp F9        &kp F10           &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp F15  &kp F16
+&kp LEFT_ALT  &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &msc SCRL_DOWN  &kp PRINTSCREEN  &kp CAPSLOCK  &kp INS          &kp F17  &kp F18
+                                &kp LGUI      &trans        &kp LEFT_SHIFT    &kp SPACE       &trans           &kp LGUI
             >;
         };
     };
