@@ -22,7 +22,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <3 4>;
+            key-positions = <27 28>;
         };
 
         back {
@@ -47,7 +47,7 @@
 
         L_sym {
             bindings = <&mo 2>;
-            key-positions = <2 3>;
+            key-positions = <26 27>;
         };
 
         L_nav {
@@ -56,8 +56,8 @@
         };
 
         L_sys {
-            bindings = <&mo 4>;
-            key-positions = <37 40 35 12>;
+            bindings = <&tog 4>;
+            key-positions = <24 35>;
         };
     };
 
